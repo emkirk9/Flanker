@@ -3,7 +3,7 @@
 var repo_site = "https://cdn.jsdelivr.net/gh/emkirk9/Flanker/";
 
 /* experiment parameters */
-var reps_per_trial_type = 8;
+var reps_per_trial_type = 4;
 
 /*set up welcome block*/
 var welcome = {
