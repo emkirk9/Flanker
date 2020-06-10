@@ -16,7 +16,7 @@ var instructions = {
     type: "html-keyboard-response",
     stimulus: "<p>In this task, you will see five arrows on the screen, like the example below.</p>" +
         "<img src='" + repo_site + "img/inc1.png'></img>" +
-        "<p>Press the H key if the middle arrow is pointing left. (H)</p>" +
+        "<p>Press the F key if the middle arrow is pointing left. (F)</p>" +
         "<p>Press the J key if the middle arrow is pointing right. (J)</p>" +
         "<p>Press any key to begin.</p>",
     post_trial_gap: 1000
