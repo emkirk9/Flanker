@@ -3,7 +3,7 @@
 var repo_site = "https://cdn.jsdelivr.net/gh/emkirk9/Flanker/";
 
 /* experiment parameters */
-var reps_per_trial_type = 8;
+var reps_per_trial_type = 15;
 
 /*set up welcome block*/
 var welcome = {
@@ -77,7 +77,7 @@ var test = {
     timeline_variables: test_stimuli,
     sample: {
         type: 'fixed-repetitions',
-        size: 8
+        size: 15
     }
 };
 
@@ -99,10 +99,7 @@ var debrief = {
             correct: true,
             stim_type: 'incongruent'
         }).select('rt').mean());
-        return "<p>You responded correctly on <strong>" + accuracy + "%</strong> of the trials.</p> " +
-            "<p>Your average response time for congruent trials was <strong>" + congruent_rt + "ms</strong>.</p>" +
-            "<p>Your average response time for incongruent trials was <strong>" + incongruent_rt + "ms</strong>.</p>" +
-            "<p>Press any key to complete the experiment. Thank you!</p>";
+        return "<p>Press any key to complete the experiment. Thank you!</p>";
     }
 };
 
