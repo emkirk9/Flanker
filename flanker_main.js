@@ -77,7 +77,7 @@ var test = {
     timeline_variables: test_stimuli,
     sample: {
         type: 'fixed-repetitions',
-        size: reps_per_trial_type
+        size: 8
     }
 };
 
