@@ -8,7 +8,7 @@ var reps_per_trial_type = 15;
 /*set up welcome block*/
 var welcome = {
     type: "html-keyboard-response",
-    stimulus: "Welcome to the experiment. Press any key to begin."
+    stimulus: "Welcome to the next task. Press any key to begin."
 };
 
 /*set up instructions block*/
@@ -16,9 +16,9 @@ var instructions = {
     type: "html-keyboard-response",
     stimulus: "<p>In this task, you will see five arrows on the screen, like the example below.</p>" +
         "<img src='" + repo_site + "img/inc1.png'></img>" +
-        "<p>Press the F key if the middle arrow is pointing left. (F)</p>" +
-        "<p>Press the J key if the middle arrow is pointing right. (J)</p>" +
-        "<p>Press any key to begin.</p>",
+        "<p>Press the left arrow key if the middle arrow is pointing left.</p>" +
+        "<p>Press the right arrow key if the middle arrow is pointing right</p>" +
+        "<p>Press any key to begin the first trial.</p>",
     post_trial_gap: 1000
 };
 
