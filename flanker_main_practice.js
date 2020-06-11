@@ -18,6 +18,7 @@ var instructions = {
         "<img src='" + repo_site + "img/inc1.png'></img>" +
         "<p>Press the left arrow key if the middle arrow is pointing left.</p>" +
         "<p>Press the right arrow key if the middle arrow is pointing right</p>" +
+        "<p>Please press the correct key as fast as you can" +
         "<p>First, you will complete a short practice trial" +
         "<p>Press any key to begin the practice trial.</p>",
     post_trial_gap: 1000
