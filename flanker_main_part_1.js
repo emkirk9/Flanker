@@ -3,7 +3,7 @@
 var repo_site = "https://cdn.jsdelivr.net/gh/emkirk9/Flanker/";
 
 /* experiment parameters */
-var reps_per_trial_type = 4;
+var reps_per_trial_type = 2;
 
 /*set up welcome block*/
 var welcome = {
@@ -18,7 +18,7 @@ var instructions = {
         "<img src='" + repo_site + "img/inc1.png'></img>" +
         "<p>Press the left arrow key if the middle arrow is pointing left.</p>" +
         "<p>Press the right arrow key if the middle arrow is pointing right</p>" +
-        "<p>Please press the correct key as fast as you can" +
+        "<p>Please press the correct key as quickly and accurately as you can" +
         "<p>First, you will complete a short practice trial" +
         "<p>Press any key to begin the practice trial.</p>",
     post_trial_gap: 1000
@@ -79,7 +79,7 @@ var test = {
     timeline_variables: test_stimuli,
     sample: {
         type: 'fixed-repetitions',
-        size: 4
+        size: 2
     }
 };
 
