@@ -106,7 +106,14 @@ var debrief = {
         var incongruent_rt = Math.round(jsPsych.data.get().filter({
             correct: true,
             stim_type: 'incongruent'
-        }).select('rt').mean());
+        var incongruent_trials = jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'incongruent'
+        });
+        var congruent_trials = jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'congruent'
+        });
         return "<p>You responded correctly on <strong>" + accuracy + "%</strong> of the trials.</p> " +
             "<p>Your average response time for congruent trials was <strong>" + congruent_rt + "ms</strong>.</p>" +
             "<p>Your average response time for incongruent trials was <strong>" + incongruent_rt + "ms</strong>.</p>" +
